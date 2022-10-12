@@ -1,0 +1,80 @@
+.intro {
+  margin-left: 130px;
+  margin-top: 200px;
+ 
+}
+.intro span {
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 57px;
+
+  color: #d67e35;
+}
+.intro span {
+    padding-left: 90px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 57px;
+  color: #d67e35;
+  
+}
+.intro h1 {
+    position: relative;
+    bottom:40px;
+    padding-left: 50px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 57px;
+  color: #d67e35;
+}
+.intro h2::before{
+    content: "";
+    display: inline-block;
+    width: 61px;
+height: 2px;
+background: #C4C4C4;
+margin-right: 10px;
+position: relative;
+top: -5px;
+}
+.intro h2::after{
+    content: "";
+    display: inline-block;
+    width: 61px;
+height: 2px;
+background: #C4C4C4;
+margin-left: 10px;
+position: relative;
+top: -5px;
+}
+.intro h2 {
+    margin-top: -50px;
+    padding-left: 150px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.intro__a  a{ 
+  position: relative;
+  top: 25px;
+  left: 240px;
+  background: #ff7400;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  padding: 14px 14px ;
+}

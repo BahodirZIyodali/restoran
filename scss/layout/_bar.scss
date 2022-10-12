@@ -1,0 +1,94 @@
+.bar_img {
+  margin-top: -900px;
+  background-image: url(../../imgs/bar.png);
+  background-attachment: fixed;
+  height: 1034px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bar_img h2 {
+  padding-top: 98px;
+  margin-left: 600px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #ffffff;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.bar-cards {
+  display: flex;
+
+}
+.bar-card {
+  width: 350px;
+  height: 510px;
+  background: #ffffff;
+  position: relative;
+  left: 160px;
+  margin-top: 250px;
+  margin-left: 30px;
+  background-repeat: no-repeat;
+   
+}
+.bar-card img{
+  margin:80px 60px;
+  
+}
+.bar-card div{
+  position: relative;
+  top: -200px;
+  left: 100px;
+  width: 100px;
+height: 100px;
+display: block;
+background: #D67E34;
+border: 7px solid #FFFFFF;
+margin-left: 100px;
+border-radius: 50px; 
+ 
+font-family: 'Cookie';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 33px;
+
+color: #FFFFFF;
+}
+.bar-card p{
+  text-align: center;
+  position: relative;
+  bottom: -30px;
+}
+.bar-card h3{
+margin-top: -160px;
+margin-left: 70px;
+font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+color: #000000;
+}
+.p2{
+  margin-top: -20px;
+  margin-left: 10px;
+  font-size: 24px;
+
+}
+.bar-card a{
+  position: relative;
+  top: 60px;
+  left: 60px;
+  padding: 14px 67px 14px 67px;
+  background-color:#D67E34;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+}

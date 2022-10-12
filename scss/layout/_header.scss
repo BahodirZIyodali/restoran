@@ -1,0 +1,229 @@
+.bg-img {
+  background-image: url(../../imgs/hero\ image\ \(3\).png);
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+.nav {
+  width: 100%;
+  padding-left: 40px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+
+  &__logo {
+    padding-left: 50px;
+  }
+
+  // ul = li = a
+
+  &__ul {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    list-style-type: none;
+    width: 20%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
+    &--list a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  //  icons
+
+  .navIcon {
+    color: #fff;
+    display: flex;
+    margin-left: 34px;
+  }
+  .navIcon::after {
+    content: "";
+    display: block;
+    background-color: #fff;
+    height: 51px;
+    width: 1px;
+    margin-left: 21px;
+  }
+  &__call {
+    position: relative;
+    top: -16px;
+    margin-left: 21px;
+  }
+
+  &__number a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    position: relative;
+    left: 2px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+  &__number--desc {
+    position: relative;
+    left: -20px;
+    top: 0px;
+    width: 154px;
+    height: 38px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  &__a a {
+    position: relative;
+    left: 40px;
+    background: #ff7400;
+    border: none;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    padding: 20px 20px;
+  }
+}
+
+
+
+
+// rwn
+
+@media only screen and (max-width:375px){
+   
+  .bg-img {
+    background-color: black;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+  
+  header {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .nav {
+    
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+  
+    &__logo {
+     display: none;
+    } 
+  
+    // ul = li = a
+  
+    &__ul {
+      
+      justify-content: space-between;
+      margin-left: 400px;
+      list-style-type: none;
+      width: 20%;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 19px;
+  
+      &--list a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  
+    //  icons
+  
+    .navIcon {
+      color: #fff;
+      display: flex;
+      margin-left: 34px;
+    }
+    .navIcon::after {
+      content: "";
+      display: block;
+      background-color: #fff;
+      height: 51px;
+      width: 1px;
+      margin-left: 21px;
+    }
+    &__call {
+      position: relative;
+      top: -16px;
+      margin-left: 21px;
+    }
+  
+    &__number a {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      text-decoration: none;
+      position: relative;
+      left: 2px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+    }
+    &__number--desc {
+      position: relative;
+      left: -20px;
+      top: 0px;
+      width: 154px;
+      height: 38px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #ffffff;
+    }
+    &__a a {
+      position: relative;
+      left: 40px;
+      background: #ff7400;
+      border: none;
+      color: #ffffff;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 19px;
+      text-decoration: none;
+      padding: 20px 20px;
+    }
+  }
+}

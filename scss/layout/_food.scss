@@ -1,0 +1,45 @@
+.food {
+  margin-top: 130px;
+  flex-wrap: wrap;
+}
+.food h2 {
+  text-align: center;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #000000;
+}
+.food span {
+  color: #d67e34;
+}
+.food_img {
+  margin-top: 143px;
+  width: 445px;
+  height: 478px;
+  background-image: url(../../imgs/mainfood.png);
+  margin-left: 166px;
+}
+.food_img1 {
+  width: 210px;
+  height: 140px;
+  background-image: url(../../imgs/hamburger.png);
+  position: relative;
+  top: -490px;
+  left: 650px;
+  margin-top: 20px;
+}
+.food p {
+  position: relative;
+  top: -1080px;
+  left: 900px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 150px;
+
+}
